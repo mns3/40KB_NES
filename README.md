@@ -16,7 +16,7 @@ TA(Technical Artist)로서 필수적인 **하드웨어 아키텍처 이해**와 
 
 ---
 
-## ⚙️ Engineering & Optimization (TA 핵심 역량)
+## ⚙️ Engineering & Optimization
 
 ### 1. PPU Rendering Pipeline & Graphics Optimization
 NES의 그래픽 처리 장치인 PPU의 구조를 이해하고, 렌더링 병목을 해결했습니다.
