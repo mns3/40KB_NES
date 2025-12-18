@@ -1,320 +1,99 @@
-<a href="https://club-project-one.vercel.app/" target="_blank">
-<img src="https://github.com/user-attachments/assets/daa622b9-7c69-4786-8db3-4996b7f140be" alt="배너" width="100%"/>
-</a>
-
-<br/>
-<br/>
-
-# 0. Getting Started (시작하기)
-```bash
-$ npm start
-```
-[서비스 링크](https://club-project-one.vercel.app/)
-
-<br/>
-<br/>
-
-# 1. Project Overview (프로젝트 개요)
-- 프로젝트 이름: 모여봐요 동아리숲!
-- 프로젝트 설명: 전국 대학 동아리 일정관리 및 홍보 커뮤니티
-
-<br/>
-<br/>
-
-# 2. Team Members (팀원 및 팀 소개)
-| 이동규 | 신유승 | 김나연 | 이승준 |
-|:------:|:------:|:------:|:------:|
-| <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="이동규" width="150"> | <img src="https://github.com/user-attachments/assets/78ec4937-81bb-4637-975d-631eb3c4601e" alt="신유승" width="150"> | <img src="https://github.com/user-attachments/assets/78ce1062-80a0-4edb-bf6b-5efac9dd992e" alt="김나연" width="150"> | <img src="https://github.com/user-attachments/assets/beea8c64-19de-4d91-955f-ed24b813a638" alt="이승준" width="150"> |
-| PL | FE | FE | FE |
-| [GitHub](https://github.com/LDK1009) | [GitHub](https://github.com/SinYusi) | [GitHub](https://github.com/nay3on) | [GitHub](https://github.com/conconcc) |
-
-<br/>
-<br/>
-
-# 3. Key Features (주요 기능)
-- **회원가입**:
-  - 회원가입 시 DB에 유저정보가 등록됩니다.
-
-- **로그인**:
-  - 사용자 인증 정보를 통해 로그인합니다.
-
-- **내 동아리 일정관리**:
-  - 캘린더 UI를 통해 동아리 관련 일정 추가&삭제가 가능합니다.
-  - 체크박스를 통해 종료되거나 이미 수행한 일정을 표시할 수 있습니다.
-
-- **동아리 찾기**:
-  - 대학 내 동아리를 검색할 수 있습니다.
-  - 검색 시 해당 동아리가 업로드한 홍보글이 보여집니다.
-
-- **동아리 홍보**:
-  - 홍보글 등록을 통해 동아리를 홍보할 수 있습니다.
-
-- **동아리 만들기**:
-  - 새로운 동아리를 만들어 관리할 수 있습니다.
-
-- **동아리 프로필**:
-  - 동아리 홍보글에서 동아리 이름(링크)를 클릭하면 해당 동아리 프로필로 이동합니다.
-  - 동아리 프로필에서는 동아리 소개, 동아리 활동사진 갤러리, 동아리 홍보글 기록관 등을 볼 수 있습니다.
-
-<br/>
-<br/>
-
-# 4. Tasks & Responsibilities (작업 및 역할 분담)
-|  |  |  |
-|-----------------|-----------------|-----------------|
-| 이동규    |  <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="이동규" width="100"> | <ul><li>프로젝트 계획 및 관리</li><li>팀 리딩 및 커뮤니케이션</li><li>커스텀훅 개발</li></ul>     |
-| 신유승   |  <img src="https://github.com/user-attachments/assets/78ec4937-81bb-4637-975d-631eb3c4601e" alt="신유승" width="100">| <ul><li>메인 페이지 개발</li><li>동아리 만들기 페이지 개발</li><li>커스텀훅 개발</li></ul> |
-| 김나연   |  <img src="https://github.com/user-attachments/assets/78ce1062-80a0-4edb-bf6b-5efac9dd992e" alt="김나연" width="100">    |<ul><li>홈 페이지 개발</li><li>로그인 페이지 개발</li><li>동아리 찾기 페이지 개발</li><li>동아리 프로필 페이지 개발</li><li>커스텀훅 개발</li></ul>  |
-| 이승준    |  <img src="https://github.com/user-attachments/assets/beea8c64-19de-4d91-955f-ed24b813a638" alt="이승준" width="100">    | <ul><li>회원가입 페이지 개발</li><li>마이 프로필 페이지 개발</li><li>커스텀훅 개발</li></ul>    |
-
-<br/>
-<br/>
-
-# 5. Technology Stack (기술 스택)
-## 5.1 Language
-|  |  |
-|-----------------|-----------------|
-| HTML5    |<img src="https://github.com/user-attachments/assets/2e122e74-a28b-4ce7-aff6-382959216d31" alt="HTML5" width="100">| 
-| CSS3    |   <img src="https://github.com/user-attachments/assets/c531b03d-55a3-40bf-9195-9ff8c4688f13" alt="CSS3" width="100">|
-| Javascript    |  <img src="https://github.com/user-attachments/assets/4a7d7074-8c71-48b4-8652-7431477669d1" alt="Javascript" width="100"> | 
-
-<br/>
-
-## 5.2 Frotend
-|  |  |  |
-|-----------------|-----------------|-----------------|
-| React    |  <img src="https://github.com/user-attachments/assets/e3b49dbb-981b-4804-acf9-012c854a2fd2" alt="React" width="100"> | 18.3.1    |
-| StyledComponents    |  <img src="https://github.com/user-attachments/assets/c9b26078-5d79-40cc-b120-69d9b3882786" alt="StyledComponents" width="100">| 6.1.12   |
-| MaterialUI    |  <img src="https://github.com/user-attachments/assets/75a46fa7-ebc0-4a9d-b648-c589f87c4b55" alt="MUI" width="100">    | 5.0.0  |
-| DayJs    |  <img src="https://github.com/user-attachments/assets/3632d7d6-8d43-4dd5-ba7a-501a2bc3a3e4" alt="DayJs" width="100">    | 1.11.12    |
-
-<br/>
-
-## 5.3 Backend
-|  |  |  |
-|-----------------|-----------------|-----------------|
-| Firebase    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
-
-<br/>
-
-## 5.4 Cooperation
-|  |  |
-|-----------------|-----------------|
-| Git    |  <img src="https://github.com/user-attachments/assets/483abc38-ed4d-487c-b43a-3963b33430e6" alt="git" width="100">    |
-| Git Kraken    |  <img src="https://github.com/user-attachments/assets/32c615cb-7bc0-45cd-91ea-0d1450bfc8a9" alt="git kraken" width="100">    |
-| Notion    |  <img src="https://github.com/user-attachments/assets/34141eb9-deca-416a-a83f-ff9543cc2f9a" alt="Notion" width="100">    |
-
-<br/>
-
-# 6. Project Structure (프로젝트 구조)
-```plaintext
-project/
-├── public/
-│   ├── index.html           # HTML 템플릿 파일
-│   └── favicon.ico          # 아이콘 파일
-├── src/
-│   ├── assets/              # 이미지, 폰트 등 정적 파일
-│   ├── components/          # 재사용 가능한 UI 컴포넌트
-│   ├── hooks/               # 커스텀 훅 모음
-│   ├── pages/               # 각 페이지별 컴포넌트
-│   ├── App.js               # 메인 애플리케이션 컴포넌트
-│   ├── index.js             # 엔트리 포인트 파일
-│   ├── index.css            # 전역 css 파일
-│   ├── firebaseConfig.js    # firebase 인스턴스 초기화 파일
-│   package-lock.json    # 정확한 종속성 버전이 기록된 파일로, 일관된 빌드를 보장
-│   package.json         # 프로젝트 종속성 및 스크립트 정의
-├── .gitignore               # Git 무시 파일 목록
-└── README.md                # 프로젝트 개요 및 사용법
-```
-
-<br/>
-<br/>
-
-# 7. Development Workflow (개발 워크플로우)
-## 브랜치 전략 (Branch Strategy)
-우리의 브랜치 전략은 Git Flow를 기반으로 하며, 다음과 같은 브랜치를 사용합니다.
-
-- Main Branch
-  - 배포 가능한 상태의 코드를 유지합니다.
-  - 모든 배포는 이 브랜치에서 이루어집니다.
-  
-- {name} Branch
-  - 팀원 각자의 개발 브랜치입니다.
-  - 모든 기능 개발은 이 브랜치에서 이루어집니다.
-
-<br/>
-<br/>
-
-# 8. Coding Convention
-## 문장 종료
-```
-// 세미콜론(;)
-console.log("Hello World!");
-```
-
-<br/>
-
-
-## 명명 규칙
-* 상수 : 영문 대문자 + 스네이크 케이스
-```
-const NAME_ROLE;
-```
-* 변수 & 함수 : 카멜케이스
-```
-// state
-const [isLoading, setIsLoading] = useState(false);
-const [isLoggedIn, setIsLoggedIn] = useState(false);
-const [errorMessage, setErrorMessage] = useState('');
-const [currentUser, setCurrentUser] = useState(null);
-
-// 배열 - 복수형 이름 사용
-const datas = [];
-
-// 정규표현식: 'r'로 시작
-const = rName = /.*/;
-
-// 이벤트 핸들러: 'on'으로 시작
-const onClick = () => {};
-const onChange = () => {};
-
-// 반환 값이 불린인 경우: 'is'로 시작
-const isLoading = false;
-
-// Fetch함수: method(get, post, put, del)로 시작
-const getEnginList = () => {...}
-```
-
-<br/>
-
-## 블록 구문
-```
-// 한 줄짜리 블록일 경우라도 {}를 생략하지 않고, 명확히 줄 바꿈 하여 사용한다
-// good
-if(true){
-  return 'hello'
-}
-
-// bad
-if(true) return 'hello'
-```
-
-<br/>
-
-## 함수
-```
-함수는 함수 표현식을 사용하며, 화살표 함수를 사용한다.
-// Good
-const fnName = () => {};
-
-// Bad
-function fnName() {};
-```
-
-<br/>
-
-## 태그 네이밍
-Styled-component태그 생성 시 아래 네이밍 규칙을 준수하여 의미 전달을 명확하게 한다.<br/>
-태그명이 길어지더라도 의미 전달의 명확성에 목적을 두어 작성한다.<br/>
-전체 영역: Container<br/>
-영역의 묶음: {Name}Area<br/>
-의미없는 태그: <><br/>
-```
-<Container>
-  <ContentsArea>
-    <Contents>...</Contents>
-    <Contents>...</Contents>
-  </ContentsArea>
-</Container>
-```
-
-<br/>
-
-## 폴더 네이밍
-카멜 케이스를 기본으로 하며, 컴포넌트 폴더일 경우에만 파스칼 케이스로 사용한다.
-```
-// 카멜 케이스
-camelCase
-// 파스칼 케이스
-PascalCase
-```
-
-<br/>
-
-## 파일 네이밍
-```
-컴포넌트일 경우만 .jsx 확장자를 사용한다. (그 외에는 .js)
-customHook을 사용하는 경우 : use + 함수명
-```
-
-<br/>
-<br/>
-
-# 9. 커밋 컨벤션
-## 기본 구조
-```
-type : subject
-
-body 
-```
-
-<br/>
-
-## type 종류
-```
-feat : 새로운 기능 추가
-fix : 버그 수정
-docs : 문서 수정
-style : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
-refactor : 코드 리펙토링
-test : 테스트 코드, 리펙토링 테스트 코드 추가
-chore : 빌드 업무 수정, 패키지 매니저 수정
-```
-
-<br/>
-
-## 커밋 이모지
-```
-== 코드 관련
-📝	코드 작성
-🔥	코드 제거
-🔨	코드 리팩토링
-💄	UI / style 변경
-
-== 문서&파일
-📰	새 파일 생성
-🔥	파일 제거
-📚	문서 작성
-
-== 버그
-🐛	버그 리포트
-🚑	버그를 고칠 때
-
-== 기타
-🐎	성능 향상
-✨	새로운 기능 구현
-💡	새로운 아이디어
-🚀	배포
-```
-
-<br/>
-
-## 커밋 예시
-```
-== ex1
-✨Feat: "회원 가입 기능 구현"
-
-SMS, 이메일 중복확인 API 개발
-
-== ex2
-📚chore: styled-components 라이브러리 설치
-
-UI개발을 위한 라이브러리 styled-components 설치
-```
-
-<br/>
-<br/>
-
-# 10. 컨벤션 수행 결과
-<img width="100%" alt="코드 컨벤션" src="https://github.com/user-attachments/assets/0dc218c0-369f-45d2-8c6d-cdedc81169b4">
-<img width="100%" alt="깃플로우" src="https://github.com/user-attachments/assets/2a4d1332-acc2-4292-9815-d122f5aea77c">
+# [Project Name]: NES Architecture Based Competitive Game
+
+![Platform](https://img.shields.io/badge/Platform-NES_(Nintendo_Entertainment_System)-red?style=flat-square)
+![Tech Stack](https://img.shields.io/badge/Language-C_(cc65)_%2F_6502_ASM-blue?style=flat-square)
+![Focus](https://img.shields.io/badge/Focus-Low_Level_Optimization_%26_PPU_Architecture-orange?style=flat-square)
+
+> **"2KB RAM, 1.79MHz CPU 환경에서의 렌더링 파이프라인 구축 및 최적화 연구"**
+>
+> 본 프로젝트는 현대 게임 개발 환경의 추상화된 레이어를 벗어나, 8비트 하드웨어(NES)의 극한 제약 속에서 **메모리 관리, 렌더링 파이프라인 제어, 물리 연산 최적화**를 직접 구현한 기술 데모 및 게임 프로젝트입니다.
+
+---
+
+## 👨‍💻 Project Overview (기술적 개요)
+
+TA(Technical Artist)로서 필수적인 **하드웨어 아키텍처 이해**와 **리소스 최적화 능력**을 배양하기 위해 진행되었습니다. NES의 PPU(Picture Processing Unit) 구조를 분석하여 제한된 스프라이트와 타일맵을 효율적으로 렌더링하고, 6502 프로세서의 사이클 한계를 고려한 로직을 구현했습니다.
+
+* **개발 기간**: 202X.XX ~ 202X.XX
+* **핵심 목표**: 
+    * Fixed-Point Arithmetic(고정 소수점)을 활용한 물리 엔진 구현
+    * PPU 하드웨어 제약(Scanline Limits) 극복 및 VRAM 관리
+    * Object Pooling을 통한 런타임 메모리 할당 최소화
+
+---
+
+## ⚙️ Engineering & Optimization (TA 핵심 역량)
+
+### 1. PPU Rendering Pipeline & Graphics Optimization
+NES의 그래픽 처리 장치인 PPU의 구조를 이해하고, 렌더링 병목을 해결했습니다.
+
+* **OAM (Object Attribute Memory) Management**:
+    * *Challenge*: NES는 한 스캔라인(Scanline) 당 최대 8개의 스프라이트만 렌더링 가능하며, 초과 시 깜빡임(Flickering) 현상 발생.
+    * *Solution*: 매 프레임 스프라이트 우선순위를 재정렬(Sorting)하거나 순환시키는 **OAM Cycling 알고리즘**을 적용하여 시각적 결함 최소화.
+* **Tilemap & Nametable Logic**:
+    * 배경(Background) 렌더링을 위해 NameTable과 Attribute Table의 메모리 주소 매핑 구조를 분석하여 효율적인 맵 로딩 시스템 구축.
+    * Chr-ROM(Character ROM) 내의 타일 패턴을 재사용하여 VRAM 대역폭 절약.
+
+### 2. Memory Architecture & Performance Profiling
+2KB의 시스템 RAM(Work RAM) 내에서 게임 로직을 구동하기 위해 극한의 메모리 최적화를 수행했습니다.
+
+* **Zero Page Optimization**: 
+    * 6502 프로세서의 특성상 `Zero Page ($00-$FF)` 영역의 접근 속도가 가장 빠름을 이용하여, 빈번하게 호출되는 물리 연산 변수와 플래그를 해당 영역에 배치, CPU 사이클 절감.
+* **Static Allocation & Object Pooling**:
+    * 동적 할당(Dynamic Allocation) 오버헤드를 없애기 위해 모든 게임 오브젝트(플레이어, 투사체 등)를 정적 배열로 선언하고, 활성/비활성 상태 플래그만 제어하는 오브젝트 풀링 기법 적용.
+
+### 3. Physics & Collision Implementation
+FPU(Floating Point Unit)가 없는 하드웨어 환경에서 부드러운 움직임을 구현했습니다.
+
+* **Sub-pixel Precision (Fixed-Point Math)**:
+    * 정수형 변수 2개를 결합하여 상위 바이트는 위치(Position), 하위 바이트는 소수점 이하(Sub-pixel)로 사용하는 **고정 소수점 연산** 체계 구축. 이를 통해 가속도 및 감속 물리 표현.
+* **AABB (Axis-Aligned Bounding Box) Optimization**:
+    * 충돌 체크 비용을 줄이기 위해 히트박스(Hitbox)의 오프셋을 비트 연산으로 처리하여 연산 부하 최소화.
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Language** | C (cc65), 6502 Assembly | 로직 구현 및 하드웨어 직접 제어 |
+| **Hardware** | NES (Nintendo Entertainment System) | Target Architecture |
+| **Compiler** | cc65 | 6502 Cross-Compiler |
+| **Tools** | Mesen, FCEUX | Debugging (Memory Viewer, PPU Viewer 활용) |
+| **Graphics** | YY-CHR, Tiled | Tile/Sprite Data Editing |
+
+---
+
+## 🎮 Game Design & Features
+
+* **Genre**: 2-Player Local Competitive Platformer
+* **Mechanics**:
+    * 하드웨어 인터럽트(NMI)를 활용한 안정적인 60FPS 게임 루프.
+    * 상태 머신(Finite State Machine) 기반의 캐릭터 애니메이션 및 로직 제어.
+* **Visual Style**: 
+    * 제한된 Palette(4 sub-palettes for bg, 4 for sprites)를 활용한 색상 설계.
+    * *Asset Note*: 그래픽 리소스는 연구 목적으로 'Micro Mages'의 스타일과 구성을 분석하여 학습용으로 활용하였습니다.
+
+---
+
+## 📝 Retrospective (기술 회고)
+
+이 프로젝트를 통해 고수준 엔진(Unreal/Unity)에서 자동화해주던 **Draw Call 처리, 메모리 정렬, 렌더링 파이프라인의 저수준 원리**를 깊이 이해하게 되었습니다.
+
+1.  **Low-Level Understanding**: 하드웨어 레지스터에 값을 직접 쓰며 화면을 그리는 과정을 통해 셰이더와 GPU 파이프라인의 기초 원리를 체득함.
+2.  **Budget Management**: TA의 핵심 역량인 '제한된 자원 내에서의 최적의 퀄리티 확보'를 8비트 환경에서의 개발을 통해 훈련함.
+3.  **Problem Solving**: 문서화가 부족한 레거시 하드웨어의 동작 방식을 에뮬레이터의 디버거(Hex Viewer, PPU Viewer)를 통해 역추적하며 해결하는 디버깅 능력 향상.
+
+---
+
+## 🚀 Installation
+
+1. Download `realfinalver.nes` from [Releases].
+2. Run with any NES Emulator (Mesen is recommended for accuracy).
+
+---
+
+### Contact
+* **Name**: [Your Name]
+* **Role**: Aspiring Technical Artist / Game Programmer
+* **Email**: [Your Email]
