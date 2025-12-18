@@ -1,4 +1,4 @@
-# [Project Name]: NES Architecture Based Competitive Game
+# [Project Name]: 40KB_NES
 
 ![Platform](https://img.shields.io/badge/Platform-NES_(Nintendo_Entertainment_System)-red?style=flat-square)
 ![Tech Stack](https://img.shields.io/badge/Language-C_(cc65)_%2F_6502_ASM-blue?style=flat-square)
@@ -13,12 +13,6 @@
 ## 👨‍💻 Project Overview (기술적 개요)
 
 TA(Technical Artist)로서 필수적인 **하드웨어 아키텍처 이해**와 **리소스 최적화 능력**을 배양하기 위해 진행되었습니다. NES의 PPU(Picture Processing Unit) 구조를 분석하여 제한된 스프라이트와 타일맵을 효율적으로 렌더링하고, 6502 프로세서의 사이클 한계를 고려한 로직을 구현했습니다.
-
-* **개발 기간**: 202X.XX ~ 202X.XX
-* **핵심 목표**: 
-    * Fixed-Point Arithmetic(고정 소수점)을 활용한 물리 엔진 구현
-    * PPU 하드웨어 제약(Scanline Limits) 극복 및 VRAM 관리
-    * Object Pooling을 통한 런타임 메모리 할당 최소화
 
 ---
 
