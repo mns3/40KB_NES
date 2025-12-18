@@ -14,7 +14,6 @@
 | **Language** | **C (cc65), 6502 Assembly** | 로직 구현 및 하드웨어 직접 제어 (Hybrid Programming) |
 | **Hardware** | **NES** | Nintendo Entertainment System (Famicom) Architecture |
 | **Compiler** | **cc65** | 6502 Cross-Compiler for NES development |
-| **Tools** | **Mesen, FCEUX** | Debugging (Memory Viewer, PPU Viewer 활용) |
 | **Graphics** | **YY-CHR, Tiled** | Binary Tile Data Conversion & Map Editing |
 
 ---
