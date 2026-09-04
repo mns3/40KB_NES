@@ -55,9 +55,6 @@
 | :--- | :--- | :--- |
 | Language | C (cc65), 6502 Assembly | 게임 로직은 C, 하드웨어 근접 부분은 어셈블리 |
 | Toolchain | cc65 / ca65 / ld65 | 6502 크로스 컴파일러 · 어셈블러 · 링커 |
-| Library | neslib (Shiru), nesdoug | NES 하드웨어 추상화 라이브러리 |
-| Mapper | NROM-256 | PRG 32KB + CHR 8KB 고정 구성, 뱅크 스위칭 없음 |
-| Graphics | YY-CHR | CHR ROM 타일 데이터 편집 |
 | Level Design | Tiled + 자체 Python 스크립트 | 맵 편집 후 C 배열로 자동 변환 |
 | Runtime | Raspberry Pi 4 + RetroPie | 전용 실행 환경 및 GPIO 컨트롤러 |
 
