@@ -8,7 +8,7 @@
 | :--- | :--- |
 | 플랫폼 | NES / Famicom (NROM-256 매퍼) |
 | 언어 | C (cc65), 6502 Assembly |
-| 최종 ROM | **40,976 bytes** = iNES 헤더 16B + PRG 32KB + CHR 8KB |
+| 최종 ROM | **40,976 bytes** |
 | 개발 기간 | 2024.11 ~ 2025.01 (10주) |
 | 팀 규모 | 2인 |
 
